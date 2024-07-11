@@ -1,6 +1,3 @@
-const a='hello'
-const b='wolrld'
-console.log(a,b)
 
 
 class Forma {
@@ -16,6 +13,8 @@ class Rectangulo extends Forma {
     this.alto
   }
 }
+
+ 
 
 /*
  EJERCICIO:
