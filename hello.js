@@ -14,6 +14,8 @@ class Rectangulo extends Forma {
     super();
     this.ancho = ancho;
     this.alto
+  }
+}
 
 /*
  EJERCICIO:
@@ -85,7 +87,7 @@ function usarVehiculo(vehiculo) {
 }
 
 // Creamos instancias de diferentes vehículos
-const miCoche = new Coche();
+const miCoche = new Coche('camion');
 const miMoto = new Moto();
 const miBici = new Bicicleta();
 
@@ -93,3 +95,5 @@ const miBici = new Bicicleta();
 usarVehiculo(miCoche);
 usarVehiculo(miMoto);
 usarVehiculo(miBici);
+
+
